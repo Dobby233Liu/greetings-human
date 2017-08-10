@@ -7,6 +7,10 @@
 	font-family: lorem;
 	src: url(MonsterFriendBack.otf);
 }
+@font-face {
+	font-family: alot;
+	src: url(MonsterFriendFore.otf);
+}
 
 textarea{
 	width: 70%;
@@ -61,12 +65,27 @@ h1{
 }
 
 h2{
-	font-family: lorem;
+	font-family: deter;
 	color: white;
 	font-size: 30px;
 }
+h3{
+	font-size: 30px;
+	color: white;
+	font-family: deter;
+}
 
 #speciala{
+	font-size: 15px;
+	color: white;
+	font-family: deter;
+}
+#lol-its-a-liar{
+	font-size: 15px;
+	color: white;
+	font-family: deter;
+}
+#im-so-happy-finally-end{
 	font-size: 15px;
 	color: white;
 	font-family: deter;
