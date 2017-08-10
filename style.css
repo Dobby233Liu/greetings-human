@@ -5,12 +5,9 @@
 
 @font-face {
 	font-family: lorem;
-	src: url(MonsterFriendBack.otf);
+	src: url(MonsterFriendBack.otf), url(MonsterFriendFore.otf);
 }
-@font-face {
-	font-family: alot;
-	src: url(MonsterFriendFore.otf);
-}
+
 
 textarea{
 	width: 70%;
