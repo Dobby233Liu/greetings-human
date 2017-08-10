@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-<!-- no easter eggs here
-	nice try tho 
-	try looking in other files, plenty of txt here	
+<!-- 这里没有彩蛋
+	这也是一个很好的尝试 
+	尝试看看其他文件, 比如这里的txt	
 	-->
 
 <head>
-	<title>GREETINGS, HUMAN! An Undertale logo creator.</title>
+	<title>GREETINGS, HUMAN! 一个只支持英文的UNDERTALE LOGO制作器。</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
 	
@@ -17,13 +17,14 @@
 	
 
 	<h1 align="center">GREETINGS, HUMAN!</h1>
-	<h2 align="center">AN UNDERTALE LOGO CREATOR</h2>
+	<h2 align="center">一个只支持英文的UNDERTALE LOGO制作器。</h2>
+	<h3 align="center">(心形需自行填充)</h3>
 	<textarea rows="2" id="input"></textarea>
 	<p>Preview:</p>
 	<div id="cc"><canvas id="logo" height="50px"></canvas></div>
 	<img id="res">
 	<br><br><br><br><br>
-	<a href="#" class="button" id="down" onclick="getImage()">DO IT!</button>
+	<a href="#" class="button" id="down" onclick="getImage()">制作!</button>
 	
 	<script type="text/javascript">
 		var tCtx = document.getElementById('logo').getContext('2d');
@@ -35,7 +36,7 @@
     		tCtx.fillStyle = 'white';
     		tCtx.fillText(this.value.toUpperCase(), 25, 50);
     		imageElem.src = tCtx.canvas.toDataURL();
-    		console.log(imageElem.src);
+    		// console.log(imageElem.src);
 		}, false);
 		
 		function getImage(){
@@ -43,7 +44,7 @@
 		}
 	</script>	
 	<br><br><br><br><br>
-	<h3><a id="speciala" href="https://www.behance.net/gallery/31378523/Monster-Friend-Undertale-Logo-Font">Monster Friend font by Harry Wakamatsu</a>. <a id="speciala" href="http://undertale.com/">Undertale by Toby Fox</a>. GREETINGS, HUMAN! by Ruyi Li.<a id="speciala" href="https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font">Determination font by Harry Wakamatsu.</a></h3>
+	<h3><a id="speciala" href="https://www.behance.net/gallery/31378523/Monster-Friend-Undertale-Logo-Font">Monster Friend font 原作者： Harry Wakamatsu</a>. <a id="speciala" href="http://undertale.com/">Undertale 原作者 Toby Fox</a>. "<a id="speciala" href"://ruyili.github.io/greetings-human/">GREETINGS, HUMAN!"</a> 原作者： <a id"lol-its-a-liar" href=://github.com/ruyili/">Ruyi Li</a>.<a id="speciala" href="https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font">Determination font 原作者： Harry Wakamatsu.</a>汉化作者：<a id="im-so-happy-finally-ennnnd" href="://github.com/dobby233liu">Dobby233Liu.</a></h3>
 	
 </body>
 </html>
