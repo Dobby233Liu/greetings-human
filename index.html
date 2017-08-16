@@ -21,7 +21,7 @@
 	<h3 align="center">(心形需自行填充)</h3>
 	<textarea rows="2" id="input"></textarea>
 	<p>预览:</p>
-	<div id="cc"><img id="inside"><canvas id="logo" height="50px"></canvas></img></div>
+	<div id="cc"><canvas id="logo" height="50px"></canvas></div>
 	<img id="res">
 	<br><br><br><br><br>
 	<a href="#" class="button" id="down" onclick="getImage()">制作!</button>
@@ -43,7 +43,7 @@
 		
 		function getImage(){
 			document.getElementById('down').href = tCtx.canvas.toDataURL();
-			document.getElementById('inside').href = IG;
+			// document.getElementById('inside').href = IG;
 		}
 	</script>	
 	<br><br><br><br><br>
