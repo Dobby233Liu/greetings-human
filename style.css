@@ -48,7 +48,7 @@ a{
 
 #boxwrote{
 	/*https://dobby233liu.github.io/greetings-human/box.png*/
-	background:url("https://dobby233liu.github.io/greetings-human/box.png") no-repeat;
+	background:url("https://dobby233liu.github.io/greetings-human/box.png") no-repeat fixed center;
 }
 #cc{
 	width: 100%;
