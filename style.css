@@ -20,6 +20,7 @@ textarea{
 	border-radius: 0px;
 	border: 2px white dashed;
 	resize: none;
+	
 }
 
 
@@ -45,6 +46,9 @@ a{
 	font-size: 30px;
 }
 
+#boxwrote{
+	
+}
 #cc{
 	width: 100%;
 	text-align: center;
