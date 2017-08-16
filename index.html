@@ -21,7 +21,7 @@
 	<h3 align="center">(心形需自行填充)</h3>
 	<textarea rows="2" id="input"></textarea>
 	<p>预览:</p>
-	<img src="https://dobby233liu.github.io/greetings-human/box.png"><div id="cc"><canvas id="logo" height="50px"></canvas></div></img>
+	<div id="cc"><img id="inside"><canvas id="logo" height="50px"></canvas></img></div>
 	<img id="res">
 	<br><br><br><br><br>
 	<a href="#" class="button" id="down" onclick="getImage()">制作!</button>
@@ -29,6 +29,7 @@
 	<script type="text/javascript">
 		var tCtx = document.getElementById('logo').getContext('2d');
     	var imageElem = document.getElementById('res');
+		var IG = "https://dobby233liu.github.io/greetings-human/box.png"
 
 		document.getElementById('input').addEventListener('keyup', function (){
     		tCtx.canvas.width = tCtx.measureText(this.value).width + 30;
@@ -36,11 +37,13 @@
     		tCtx.fillStyle = 'white';
     		tCtx.fillText(this.value.toUpperCase(), 25, 50);
     		imageElem.src = tCtx.canvas.toDataURL();
+			
     		// console.log(imageElem.src);
 		}, false);
 		
 		function getImage(){
 			document.getElementById('down').href = tCtx.canvas.toDataURL();
+			document.getElementById('inside').href = IG;
 		}
 	</script>	
 	<br><br><br><br><br>
